@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Score Keeper</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
    <link rel="stylesheet" href="scoreKeeper.css">
 </head>
 <body>
-    <h1> <span id="p1disp">0</span> to <span id="p2disp">0</span></h1>
-    <p>Playing to: <span id="finalScore"> 5</span></p>
-    <input type="number">
-    <button id="p1">Player 1</button>
-    <button id="p2">Player 2</button>
-    <button id="reset">Reset</button>
-    <script type = "text/javascript" src="scoreKeeper.js"></script>
+    <div id="body">
+        <div class="container">
+            <h1> <span id="p1disp">0</span> <span id="p2disp">0</span></h1>
+        </div>
+    
+
+        <p>Playing to: <span id="finalScore"> 5</span></p>
+        <input type="number">
+        <button id="p1">Player 1</button>
+        <button id="p2">Player 2</button>
+        <button id="reset">Reset</button>
+        <script type = "text/javascript" src="scoreKeeper.js"></script>
+    </div>
 </body>
 </html>
